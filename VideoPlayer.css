@@ -1,0 +1,24 @@
+/* YouTubeVideoPlayer.css */
+.youtube-video-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.video-container {
+  margin-bottom: 20px;
+}
+
+.comment-section {
+  width: 800px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.recommendation-section {
+  width: 800px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}

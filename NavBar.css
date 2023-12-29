@@ -1,0 +1,94 @@
+.NavBar{
+  height: 3em;
+  padding: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#First{
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+}
+
+#MenuIcn{
+  font-size: 1em;
+}
+
+#First img{
+  width: 7em;
+  margin-left: 20px;
+}
+
+#Second{
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Second div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Second div input{
+  width: 100%;
+  padding: 0.5rem 15px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 30px; 
+}
+
+#Second div 
+{
+  position: relative;
+}
+
+#SearchIcn{
+  position: absolute;
+  right: 0px;
+  height: 99%;
+  width: 2em;
+  border-left: 1px solid rgb(209, 206, 206);
+  border-radius: 0 30px 30px 0;
+  
+}
+
+#Third{
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+#VIcon{
+  font-size: 1.7em;
+}
+
+#NIcon{
+  font-size: 1.7em;
+}
+
+#Avtar{
+  border: 1px solid gray;
+  height: 1.7em;
+  width: 1.8em;
+}
+#Third img{
+  height: 1.8em;
+  
+}
+#MicIcn{
+  margin: 10px;
+  border-radius: 50px;
+  background-color: lightgray;
+  font-size: 1.7rem;
+}

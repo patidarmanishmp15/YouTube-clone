@@ -1,0 +1,15 @@
+#Home{
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  /* border: 2px solid red; */
+}
+#SideBar{
+  flex: 0.17;
+  /* border: 2px solid black; */
+}
+#Videos{
+  flex: 0.83;
+  /* border: 2px solid green; */
+}
