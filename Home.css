@@ -1,0 +1,167 @@
+#Home {
+  width: 100%;
+  display: flex;
+}
+
+#SideBar {
+  margin-top: 3rem;
+
+  position: fixed;
+  width: 9rem;
+  height: 100%;
+
+  background-color: rgb(255, 255, 255);
+}
+
+#SideBar:hover {
+  overflow: auto;
+}
+
+#home {
+  padding: 0.5rem;
+}
+
+#home ul li {
+  cursor: pointer;
+  list-style: none;
+  gap: 0.7rem;
+  border-radius: 10px;
+  margin-top: 0.1rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 0.6rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+#home ul li:active{
+  background-color: rgb(60, 60, 60);
+  border-radius: 10px;
+}
+
+
+#home ul li:hover{
+  background-color: lightgray;
+}
+
+#HomeIcon {
+  font-size: 0.9rem;
+}
+
+#Shorts {
+  font-size: 0.9rem;
+}
+
+#SubscriptionsIcon {
+  font-size: 0.9rem;
+}
+
+#you{
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 0.9rem;
+}
+#you ul li{
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+#you ul li:hover{
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+#you ul li:active{
+  background-color: rgb(178, 172, 172);
+  border-radius: 10px;
+}
+
+
+#icon{
+  font-size: 0.9rem;
+}
+
+#Subsciptions{
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 0.9rem;
+}
+
+#Subsciptions ul li{
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+  /* overflow: hidden; */
+}
+
+#Subsciptions ul li:hover{
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+#Subsciptions ul li:active{
+  background-color: rgb(178, 172, 172);
+  border-radius: 10px;
+}
+
+#Avtar{
+  border: 1px solid gray;
+  height: 1em;
+  width: 1em;
+}
+
+#Explore{
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 0.9rem;
+}
+
+
+#Explore ul li{
+  list-style-type: none;
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+
+
+
+
+#Videos {
+  position: fixed;
+  top: 3rem;
+  left: 9rem;
+  width: calc(100% - 10rem);
+  overflow: scroll;
+
+  margin-left: 1.5rem;
+  height: 100%;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
